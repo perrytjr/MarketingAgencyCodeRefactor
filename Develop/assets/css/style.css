@@ -20,11 +20,12 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+header h1 #seo {
     color: #d9dcd6;
 }
 
-header nav {
+nav {
+    float: left;
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -77,17 +78,17 @@ main {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-lead h3 {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
+.benefit-brand h3 {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-cost {
+.benefit-cost h3 {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -107,25 +108,20 @@ main {
     text-align: center;
 }
 
-.benefit-lead img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
+.section-titles img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+    max-height: 200px;
 }
 
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+.section-titles {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -134,50 +130,17 @@ main {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+.section-titles img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
 
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+.benefits h3 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 footer {
     padding: 30px;
